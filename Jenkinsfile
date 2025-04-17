@@ -5,7 +5,7 @@ pipeline {
         
         stage("code"){
             steps{
-                git url: "https://github.com/sankyd/node-todo-cicd.git", branch:"master"
+                git url: "https://github.com/sankyd/node-todo-cicd.git", branch:"sankyd-patch-2"
                 echo 'bhaiyya code clone ho gaya'
             }
         }
